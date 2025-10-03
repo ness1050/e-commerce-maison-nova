@@ -151,7 +151,7 @@ npm run dev
 
 ## 🤝 Bidra
 Mitt primära bidrag till projektet var att utveckla funktionalitet för kontaktformulär, varukorgssidan samt CRUD-hantering för produkter. Jag arbetade även med databasen via Prisma och integration mot Supabase.
-Funktionaliteter som jag ansvarade för var Contact-page, där jag implementerade en dynamiskt förmulärdata i en client component med React useState, lade till funktionen för att hantera förmulärdata, visa bekräftelsemeddelanden och återställa förmuläret, samt Cart-page här utvecklade hag varukorgssidan för ett bättre user-upplevelse som ökning, minskning och ta bort funktionen för produkter samt beräkningar av totalpriset och konvertering av priset med hjälp av implementerade funktionen, Byggde en strukturerad layout med responsive grid, checkout-del och fält för rabattkod/presentkort.
+Funktionaliteter som jag ansvarade för var Contact-page, där jag implementerade en dynamiskt förmulärdata i en client component med React useState, lade till funktionen för att hantera förmulärdata, visa bekräftelsemeddelanden och återställa förmuläret, samt Cart-page här utvecklade jag varukorgssidan för ett bättre user-upplevelse som ökning, minskning och ta bort funktionen för produkter samt beräkningar av totalpriset och konvertering av priset med hjälp av implementerade funktionen, Byggde en strukturerad layout med responsive grid, checkout-del och fält för rabattkod/presentkort.
 Använde Next.js Image och Tailwind CSS för design och optimering.
 Använde zustand (userCartStore) för global state-hantering av kundvagnsdata.
 Skapade server actions för att lägga till, uppdatera och ta bort produkter med hjälp av Prisma. Samt skapade DeleteButton-komponenten som använder use server och revalidatepath för att uppdatera User interface dynamiken.
@@ -163,11 +163,15 @@ Bidrog till databas-hanteringen med Prisma ORM.
 
 ## 📚 Lärdomar
 
-- **Skillnaden mellan Server & Client Components i Next.js** – Vi lärde oss när och varför man ska använda server- respektive klientkomponenter för att optimera prestanda och användarupplevelse.  
-- **Agila metoder** – Vi fick praktisk erfarenhet av sprintplanering, backloghantering och samarbete i grupp enligt agila principer.  
-- **API-användning** – Ursprungligen användes externa API:er, men vi fick även erfarenhet av att hämta och hantera data från **Supabase** via **Prisma**.  
-- **Responsivitet** – Vi lärde oss att skapa gränssnitt som fungerar på olika skärmstorlekar med hjälp av Tailwind CSS och flexibla komponenter.  
-- **Databashantering med Prisma & Supabase** – Vi fick förståelse för hur man definierar datamodeller, gör CRUD-operationer och integrerar en databas i ett Next.js-projekt.
+Server vs Client Components i Next.js – Jag fick en tydligare förståelse för skillnaden mellan dessa komponenter och när det är bäst att använda vilken. Det hjälpte mig att optimera både prestanda och användarupplevelse.
+
+Agila metoder i praktiken – Jag lärde mig arbeta i sprintar, planera backlog och samarbeta i grupp på ett mer strukturerat sätt enligt agila principer.
+
+API- och databasanvändning – Jag började med externa API:er men fick även erfarenhet av att koppla upp och hämta data från Supabase via Prisma, vilket gav en djupare förståelse för backend-logik.
+
+Responsiv design – Jag förbättrade min förmåga att bygga användargränssnitt som fungerar på olika skärmstorlekar med hjälp av Tailwind CSS och flexibla komponenter.
+
+Databashantering med Prisma & Supabase – Jag lärde mig hur man definierar datamodeller, genomför CRUD-operationer och integrerar databasen med ett Next.js-projekt.
   
 ---
 
