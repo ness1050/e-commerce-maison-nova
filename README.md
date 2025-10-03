@@ -150,7 +150,12 @@ npm run dev
 ---
 
 ## 🤝 Bidra
-
+Mitt primära bidrag till projektet var att utveckla funktionalitet för kontaktformulär, varukorgssidan samt CRUD-hantering för produkter. Jag arbetade även med databasen via Prisma och integration mot Supabase.
+Funktionaliteter som jag ansvarade för var Contact-page, där jag implementerade en dynamiskt förmulärdata i en client component med React useState, lade till funktionen för att hantera förmulärdata, visa bekräftelsemeddelanden och återställa förmuläret, samt Cart-page här utvecklade hag varukorgssidan för ett bättre user-upplevelse som ökning, minskning och ta bort funktionen för produkter samt beräkningar av totalpriset och konvertering av priset med hjälp av implementerade funktionen, Byggde en strukturerad layout med responsive grid, checkout-del och fält för rabattkod/presentkort.
+Använde Next.js Image och Tailwind CSS för design och optimering.
+Använde zustand (userCartStore) för global state-hantering av kundvagnsdata.
+Skapade server actions för att lägga till, uppdatera och ta bort produkter med hjälp av Prisma. Samt skapade DeleteButton-komponenten som använder use server och revalidatepath för att uppdatera User interface dynamiken.
+Bidrog till databas-hanteringen med Prisma ORM.
 
 
 
@@ -169,13 +174,3 @@ npm run dev
 ## 📜 Licens
 
 Detta projekt är utvecklat i utbildningssyfte och är inte avsett för produktion.
-
----
-
-## ✍️ Kontakt
-
-
-- **Ali Z – Produkt- & Databasninja** – ali@example.com  
-- **Chris W – Admin-suverän & User-reglerare** – chris@example.com  
-- **Naseem Q – Checkout-mästare & Kontaktguru** – naseem@example.com  
-- **Nicole P – UI/UX-implementerare & CRUD-magiker** – nicole@example.com
